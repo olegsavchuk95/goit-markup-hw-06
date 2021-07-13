@@ -822,12 +822,12 @@ body {
   width: 370px;
   height: 294px;
 
+  padding: 63px 24px;
+
   transform: translateY(100%);
   transition: transform 250ms ease;
 
   background-color: rgba(33, 150, 243, 0.9);
-
-  padding: 24px 63px;
 
   font-size: 18px;
   line-height: 1.56;
