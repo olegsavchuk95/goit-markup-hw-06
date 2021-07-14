@@ -20,6 +20,95 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button class="close-button" type="button" data-modal-close>&#10006</button>
+
+        <!-- -------- ФОРМА -------- -->
+
+        <p class="modal-header">Оставьте свои данные, мы вам перезвоним</p>
+
+        <form action="#" class="modal-form">
+        
+            <div class="form-field">
+        
+                <label for="name-input" class="modal-label">Имя</label>
+        
+                <div class="modal-box">
+        
+                    <input type="text" name="user-name" autofocus class="modal-input" id="name-input" />
+        
+                    <svg width="12" height="12" class="modal-icons">
+                        <use href="./sprites.svg#icon-form-1"></use>
+                    </svg>
+        
+                </div>
+        
+            </div>
+
+            <div class="form-field">
+        
+                <label for="tel-input" class="modal-label">Телефон</label>
+        
+                <div class="modal-box">
+        
+                    <input type="tel" name="user-tel" class="modal-input" id="tel-input" />
+        
+                    <svg width="12" height="12" class="modal-icons">
+                        <use href="./sprites.svg#icon-form-2"></use>
+                    </svg>
+        
+                </div>
+        
+            </div>
+
+            <div class="form-field">
+        
+                <label for="email-input" class="modal-label">Почта</label>
+        
+                <div class="modal-box">
+        
+                    <input type="email" name="user-email"class="modal-input" id="email-input" />
+        
+                    <svg width="12" height="12" class="modal-icons">
+                        <use href="./sprites.svg#icon-form-3"></use>
+                    </svg>
+        
+                </div>
+        
+            </div>
+
+            <div class="form-field">
+
+                <label for="comment" class="modal-label">Комментарий</label>
+
+                <textarea name="user-comment" id="comment"  class="form-comment" placeholder="Введите текст"></textarea>
+            
+            </div>
+
+            <div class="form-field">
+
+                <input type="checkbox" class="input-checkbox visually-hidden" id="input-check">
+
+                <label for="input-check" class="conditions-label">
+                    
+                    <span class="check-btn">
+
+                        <svg width="20" height="20" class="check-icon">
+                            <use href="./sprites.svg#icon-check"></use>
+                        </svg>
+
+                    </span>
+                    
+                    Соглашаюсь с рассылкой и принимаю&nbsp;
+                    <a href="#" class="conditions-link">Условия договора</a>
+
+
+
+                </label>
+
+                <button class="modal-form-btn">Отправить</button>
+            
+            </div>
+        
+        </form>
     </div>
 </div>
 
@@ -619,6 +708,38 @@
                         </li>
                     
                     </ul>
+                </div>
+
+                <!-- ----------------FOOTER-FORM-SECTION-------------- -->
+
+                <div class="footer-form">
+
+                    <h3 class="footer-supheader">
+                        Подпишитесь на рассылку
+                    </h3>
+
+                    <form action="#" class="foter-form-item">
+
+                        <label for="#">
+
+                            <input type="email" name="email" placeholder="E-mail" class="footer-input">
+
+                        </label>
+
+                        <button type="button" class="footer-form-btn" >
+
+                            Подписаться
+                            
+                            <svg width="24" height="24" class="footer-icon-form">
+                                <use href="./sprites.svg#icon-telegram"></use>
+                            </svg>
+    
+                        </button>
+
+                    </form>
+
+
+
                 </div>
 
             </div>
