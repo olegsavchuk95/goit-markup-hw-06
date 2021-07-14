@@ -240,6 +240,13 @@ body {
 
 }
 
+.form-comment:hover,
+.form-comment:focus {
+
+  border: 1px solid var(--accent-color);
+
+}
+
 .conditions-label {
 
   display: flex;
@@ -250,6 +257,14 @@ body {
   letter-spacing: 0.3;
 
   color: #757575;
+
+}
+
+.input-checkbox:checked + .conditions-label .check-btn, {
+
+  background-color: var(--accent-color);
+  fill: var(--white);
+  border: none;
 
 }
 
@@ -278,13 +293,6 @@ body {
 
   fill: var(--white);
 
-}
-
-.input-checkbox:checked + .conditions-label .check-btn {
-
-  background-color: var(--accent-color);
-  fill: var(--white);
-  border: none;
 }
 
 .modal-form-btn {
