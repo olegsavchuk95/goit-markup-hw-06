@@ -325,15 +325,7 @@ body {
 
 }
 
-/* WebStudio colors */
-
-.blue-word {
-  color: var(--accent-color);
-}
-
 /* Header */
-
-/* ----ЛОГО---- */
 
 .page-header {
   border-bottom: 1px solid #ececec;
@@ -358,6 +350,10 @@ body {
 .logo-header {
   display: flex;
   align-items: center;
+}
+
+.blue-word {
+  color: var(--accent-color);
 }
 
 /* ----НАВІГАЦІЯ---- */
